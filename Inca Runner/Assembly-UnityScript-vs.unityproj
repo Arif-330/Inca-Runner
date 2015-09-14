@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{B620017E-6FA4-789B-48C1-31C486A31D0F}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\GUIRescaler.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\cameravelocity.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\cloudparallax.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\flasher.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\flyerAnimator.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\flyerControls.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\flyerHighScore.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\flyerPlatform.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\flyerScore.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\gameovermenu.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\hazard.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\highscore.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\loader.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\menu.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\mobilecontrolgui.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\mouseButton.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\musicmanager.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\pickup.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\platform.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\platformspawner.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\playeranimator.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\playercontrols.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\score.js" />
+     <Compile Include="Assets\2dinfiniterunner\Scripts\Javascript\scoreCollider.js" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
