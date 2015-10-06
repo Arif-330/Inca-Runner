@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="C:\Users\Arifur\Documents\GitHub\FirstGitRepo\GitTest\Assets\playerScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\..\Dropbox\Inca Runner(20 Level Completed)\Inca Runner\Assets\2dinfiniterunner\Scripts\CSharp\playercontrols.cs">
     <Files>
-      <File FileName="C:\Users\Arifur\Documents\GitHub\FirstGitRepo\GitTest\Assets\playerScript.cs" Line="9" Column="3" />
+      <File FileName="..\..\..\..\..\Dropbox\Inca Runner(20 Level Completed)\Inca Runner\Assets\2dinfiniterunner\Scripts\CSharp\playercontrols.cs" Line="19" Column="14" />
+      <File FileName="..\..\..\..\..\Dropbox\Inca Runner(20 Level Completed)\Inca Runner\Assets\2dinfiniterunner\Scripts\CSharp\pickup.cs" Line="53" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
